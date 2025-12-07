@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e2e8e5;
+    background-color: #dee3e4;
     color: #333;
     line-height: 1.6;
 }
@@ -69,7 +69,7 @@ article{
     border: 2px solid #0000006b;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    height: 520px;
+    height: 540px;
     max-width: 600px;
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.3s ease;
@@ -82,8 +82,8 @@ article{
 }
 .card img{
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
 }
 .card .tartalom{
     padding: 15px;
@@ -140,8 +140,9 @@ footer .credit p{
     gap: 20px;
     margin-top: 10px;
     padding: 10px;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
+    margin-bottom: 20px;
 }
 .footer-content .links{
     display: grid;
