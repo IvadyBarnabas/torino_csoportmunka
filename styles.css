@@ -55,7 +55,7 @@ main{
 article{
     margin-bottom: 20px;
 }
-.cards{
+.cards, .teacher-cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -70,7 +70,7 @@ article{
     animation: slideUpFade 2s cubic-bezier(.2,.8,.2,1) both;
     will-change: transform, opacity;
 }
-.card{
+.card, .teacher-card{
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #0000006b;
     border-radius: 5px;
@@ -78,12 +78,12 @@ article{
     transition: transform 0.2s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
-.card:hover{
+.card, .teacher-card:hover{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
     transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
-.card img{
+.card, .teacher-card img{
     height: auto;
     width: 100%;
     border-radius: 10px;
@@ -97,15 +97,15 @@ article{
 .card .kep{
     overflow: hidden;
 }
-.card h2{
+.card, .teacher-card h2{
     padding: 5px;
     margin-bottom: 10px;
     color: #35424a;
 }
-.card p{
+.card, .teacher-card- p{
     margin-bottom: 15px;
 }
-.tartalom{
+.teacher-card .tartalom{
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
