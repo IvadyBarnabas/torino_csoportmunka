@@ -5,7 +5,10 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: url(kepek/footer/body.png);
+    background: url(kepek/_3qu79.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    animation: backgroundAnimation 30s infinite alternate;
     color: #333;
     line-height: 1.6;
 }
