@@ -229,6 +229,10 @@ footer .credit p:hover{
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+    nav a{
+        margin: auto;
+        max-width: 80%;
+    }
     .footer-content{
         grid-template-columns: 1fr 1fr;
     }
